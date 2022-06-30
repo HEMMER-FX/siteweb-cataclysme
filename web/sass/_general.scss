@@ -1,0 +1,30 @@
+body{
+    background-color: $primary;
+
+    .block {
+        &.nav {
+            justify-content: end;
+
+            .navigation {
+                width: 50%;
+                ul {
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: nowrap;
+                    justify-content: space-evenly;
+                }
+                ul li a {
+                    display: block;
+                }
+            }
+        }
+
+        &.header {
+            
+        }
+    }
+
+    h1 {
+        font-family: $font-family-base;
+    }
+}

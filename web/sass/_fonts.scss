@@ -1,0 +1,479 @@
+@font-face {
+    font-family: 'Founders Grotesk';
+    src: url('../assets/fonts/FoundersGrotesk-LightItalic.eot');
+    src: url('../assets/fonts/FoundersGrotesk-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/FoundersGrotesk-LightItalic.woff2') format('woff2'),
+        url('../assets/fonts/FoundersGrotesk-LightItalic.woff') format('woff'),
+        url('../assets/fonts/FoundersGrotesk-LightItalic.ttf') format('truetype'),
+        url('../assets/fonts/FoundersGrotesk-LightItalic.svg#FoundersGrotesk-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Founders Grotesk';
+    src: url('../assets/fonts/FoundersGrotesk-Bold.eot');
+    src: url('../assets/fonts/FoundersGrotesk-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/FoundersGrotesk-Bold.woff2') format('woff2'),
+        url('../assets/fonts/FoundersGrotesk-Bold.woff') format('woff'),
+        url('../assets/fonts/FoundersGrotesk-Bold.ttf') format('truetype'),
+        url('../assets/fonts/FoundersGrotesk-Bold.svg#FoundersGrotesk-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Founders Grotesk';
+    src: url('../assets/fonts/FoundersGrotesk-Light.eot');
+    src: url('../assets/fonts/FoundersGrotesk-Light.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/FoundersGrotesk-Light.woff2') format('woff2'),
+        url('../assets/fonts/FoundersGrotesk-Light.woff') format('woff'),
+        url('../assets/fonts/FoundersGrotesk-Light.ttf') format('truetype'),
+        url('../assets/fonts/FoundersGrotesk-Light.svg#FoundersGrotesk-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Founders Grotesk Regular';
+    src: url('../assets/fonts/FoundersGrotesk-RegularItalic.eot');
+    src: url('../assets/fonts/FoundersGrotesk-RegularItalic.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/FoundersGrotesk-RegularItalic.woff2') format('woff2'),
+        url('../assets/fonts/FoundersGrotesk-RegularItalic.woff') format('woff'),
+        url('../assets/fonts/FoundersGrotesk-RegularItalic.ttf') format('truetype'),
+        url('../assets/fonts/FoundersGrotesk-RegularItalic.svg#FoundersGrotesk-RegularItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Founders Grotesk';
+    src: url('../assets/fonts/FoundersGrotesk-Medium.eot');
+    src: url('../assets/fonts/FoundersGrotesk-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/FoundersGrotesk-Medium.woff2') format('woff2'),
+        url('../assets/fonts/FoundersGrotesk-Medium.woff') format('woff'),
+        url('../assets/fonts/FoundersGrotesk-Medium.ttf') format('truetype'),
+        url('../assets/fonts/FoundersGrotesk-Medium.svg#FoundersGrotesk-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Street Power';
+    src: url('../assets/fonts/Street.eot');
+    src: url('../assets/fonts/Street.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/Street.woff2') format('woff2'),
+        url('../assets/fonts/Street.woff') format('woff'),
+        url('../assets/fonts/Street.ttf') format('truetype'),
+        url('../assets/fonts/Street.svg#Street') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+$icomoon-font-family: "albus" !default;
+$icomoon-font-path: "../assets/fonts" !default;
+$icon-Icon-inch-up: "\e929";
+$icon-Icon-calendar: "\e91e";
+$icon-Icon-car: "\e921";
+$icon-Icon-heart: "\e923";
+$icon-Icon-rocket: "\e924";
+$icon-Icon-shield: "\e925";
+$icon-Icon-star: "\e926";
+$icon-Icon-ionic-time: "\e927";
+$icon-Icon-ionic-people: "\e928";
+$icon-icon-apple: "\e91b";
+$icon-icon-video: "\e91c";
+$icon-icon-logo-android: "\e91d";
+$icon-number-3: "\e904";
+$icon-number-2: "\e900";
+$icon-number-1: "\e901";
+$icon-sketch-heart: "\e902";
+$icon-sketch-cross: "\e903";
+$icon-heart: "\e905";
+$icon-fb: "\e906";
+$icon-call: "\e907";
+$icon-check: "\e908";
+$icon-give: "\e909";
+$icon-handshake: "\e90a";
+$icon-island: "\e90b";
+$icon-chat: "\e90c";
+$icon-window: "\e90d";
+$icon-trophy: "\e90e";
+$icon-sketch-star: "\e90f";
+$icon-sketch-spark: "\e910";
+$icon-arrow: "\e911";
+$icon-number-4: "\e91f";
+$icon-number-circled-1: "\e91f";
+$icon-number-circled-2: "\e920";
+$icon-number-circled-3: "\e919";
+$icon-number-circled-4: "\e922";
+$icon-play: "\ea1c";
+$icon-character: "\e912";
+$icon-icon-feather-minus: "\e913";
+$icon-icon-feather-plus: "\e914";
+$icon-icon-camera: "\e918";
+$icon-icon-cloud: "\e915";
+$icon-icon-inch: "\e916";
+$icon-icon-synchro: "\e917";
+$icon-check-circle: "\e91a";
+$icon-fill-calendar: "\e92a";
+$icon-check: "\e92b";
+$icon-close: "\e92c";
+$icon-chevron: "\e92d";
+$icon-file: "\e92e";
+$icon-arrow-small: "\e92f";
+$icon-spotify: "\e930";
+$icon-check-circled: "\e931";
+$icon-web: "\e908";
+$icon-thumb: "\e90d";
+
+@font-face {
+    font-family: '#{$icomoon-font-family}';
+    src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?1ba8be');
+    src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?1ba8be#iefix') format('embedded-opentype'),
+      url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?1ba8be') format('truetype'),
+      url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?1ba8be') format('woff'),
+      url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?1ba8be##{$icomoon-font-family}') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"], i.icon {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: '#{$icomoon-font-family}' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .icon-web {
+    &:before {
+      content: $icon-web;     
+      color: #71b23a;
+    }
+  }
+  .icon-check-circled {
+    &:before {
+      content: $icon-check-circled;     
+      color: #71b23a;
+    }
+  }
+  .icon-spotify {
+    &:before {
+      content: $icon-spotify; 
+    }
+  }
+  .icon-arrow-small:before {
+    content: $icon-arrow-small;
+    color: #fff;
+  }
+  .icon-check {
+    &:before {
+      content: $icon-check; 
+    }
+  }
+  .icon-close {
+    &:before {
+      content: $icon-close; 
+    }
+  }
+  .icon-fill-calendar {
+    &:before {
+      content: $icon-fill-calendar;     
+      color: #71b23a;
+    }
+  }
+  .icon-check-circle {
+    &:before {
+      content: $icon-check-circle;     
+      color: #71b23a;
+    }
+  }
+  .icon-feather-minus {
+    &:before {
+      content: $icon-icon-feather-minus; 
+    }
+  }
+  .icon-feather-plus {
+    &:before {
+      content: $icon-icon-feather-plus; 
+    }
+  }
+  .icon-character {
+    &:before {
+      content: $icon-character;     
+      color: #71b23a;
+    }
+  }
+  .icon-number-circled-1 {
+    &:before {
+      content: $icon-number-circled-1;     
+      color: #71b23a;
+    }
+  }
+  .icon-number-circled-2 {
+    &:before {
+      content: $icon-number-circled-2;     
+      color: #71b23a;
+    }
+  }
+  .icon-number-circled-3 {
+    &:before {
+      content: $icon-number-circled-3;     
+      color: #71b23a;
+    }
+  }
+  .icon-number-circled-4 {
+    &:before {
+      content: $icon-number-circled-4;     
+      color: #71b23a;
+    }
+  }
+
+  .icon-number-4 {
+    &:before {
+      content: $icon-number-4;     
+      color: #71b23a;
+    }
+  }
+  .icon-number-2 {
+    &:before {
+      content: $icon-number-2;     
+      color: #71b23a;
+    }
+  }
+  .icon-number-1 {
+    &:before {
+      content: $icon-number-1;     
+      color: #71b23a;
+    }
+  }
+  .icon-sketch-heart {
+    &:before {
+      content: $icon-sketch-heart;     
+      color: #71b23a;
+    }
+  }
+  .icon-sketch-cross {
+    &:before {
+      content: $icon-sketch-cross;     
+      color: #71b23a;
+    }
+  }
+  .icon-number-3 {
+    &:before {
+      content: $icon-number-3;     
+      color: #71b23a;
+    }
+  }
+  .icon-heart {
+    &:before {
+      content: $icon-heart;     
+    }
+  }
+  .icon-fb {
+    &:before {
+      content: $icon-fb;     
+      color: #f5f9ff;
+    }
+  }
+  .icon-call {
+    &:before {
+      content: $icon-call;     
+      color: #71b23a;
+    }
+  }
+  .icon-check {
+    &:before {
+      content: $icon-check;     
+      color: #71b23a;
+    }
+  }
+  .icon-give {
+    &:before {
+      content: $icon-give;     
+      color: #71b23a;
+    }
+  }
+  .icon-handshake {
+    &:before {
+      content: $icon-handshake;     
+      color: #71b23a;
+    }
+  }
+  .icon-island {
+    &:before {
+      content: $icon-island;     
+      color: #71b23a;
+    }
+  }
+  .icon-chat {
+    &:before {
+      content: $icon-chat;     
+      color: #71b23a;
+    }
+  }
+  .icon-window {
+    &:before {
+      content: $icon-window;     
+      color: #71b23a;
+    }
+  }
+  .icon-trophy {
+    &:before {
+      content: $icon-trophy;     
+      color: #71b23a;
+    }
+  }
+  .icon-sketch-star {
+    &:before {
+      content: $icon-sketch-star;     
+      color: #71b23a;
+    }
+  }
+  .icon-sketch-spark {
+    &:before {
+      content: $icon-sketch-spark;
+      color: #71b23a;
+    }
+  }
+  
+
+
+  .icon-arrow {
+    &:before {
+      content: $icon-arrow;     
+      color: #fff;
+    }
+  }
+  
+  .icon-play {
+    &:before {
+      content: $icon-play; 
+    }
+  }
+
+.icon-camera {
+  &:before {
+    content: $icon-icon-camera; 
+  }
+}
+.icon-cloud {
+  &:before {
+    content: $icon-icon-cloud; 
+  }
+}
+.icon-inch {
+  &:before {
+    content: $icon-icon-inch; 
+  }
+}
+.icon-synchro {
+  &:before {
+    content: $icon-icon-synchro; 
+  }
+}
+
+.icon-icon-apple {
+  &:before {
+    content: $icon-icon-apple;     
+    color: #71b23a;
+  }
+}
+.icon-icon-video {
+  &:before {
+    content: $icon-icon-video;     
+    color: #fff;
+  }
+}
+.icon-icon-logo-android {
+  &:before {
+    content: $icon-icon-logo-android;     
+    color: #71b23a;
+  }
+}
+.icon-inch-up {
+  &:before {
+    content: $icon-Icon-inch-up;     
+    color: #71b23a;
+  }
+}
+.icon-calendar {
+  &:before {
+    content: $icon-Icon-calendar;     
+    color: #71b23a;
+  }
+}
+.icon-car {
+  &:before {
+    content: $icon-Icon-car;     
+    color: #71b23a;
+  }
+}
+.icon-stroke-heart {
+  &:before {
+    content: $icon-Icon-heart;     
+    color: #71b23a;
+  }
+}
+.icon-rocket {
+  &:before {
+    content: $icon-Icon-rocket;     
+    color: #71b23a;
+  }
+}
+.icon-shield {
+  &:before {
+    content: $icon-Icon-shield;     
+    color: #71b23a;
+  }
+}
+.icon-star {
+  &:before {
+    content: $icon-Icon-star;     
+    color: #71b23a;
+  }
+}
+.icon-ionic-time {
+  &:before {
+    content: $icon-Icon-ionic-time;     
+    color: #71b23a;
+  }
+}
+.icon-ionic-people {
+  &:before {
+    content: $icon-Icon-ionic-people;     
+    color: #71b23a;
+  }
+}
+.icon-chevron {
+  &:before {
+    content: $icon-chevron;
+  }
+}
+.icon-file {
+  &:before {
+    content: $icon-file;
+    color: #82af4d;
+  }
+}
+.icon-thumb {
+  &:before {
+    content: $icon-thumb;
+    color: #fff;
+  }
+}

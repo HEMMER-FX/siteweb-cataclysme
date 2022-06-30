@@ -1,0 +1,31 @@
+// COLOR
+$primary: #410808;
+$secondary: #71b23a;
+$tertiary: #020840;
+$quaternary: #050514;
+$quinary: #377dcf;
+$black: #000;
+$white: #fff;
+
+
+// FONTS 
+$font-basic: "Open Sans";
+$font-family-base: 'Founders Grotesk', sans-serif;
+$font-family-second: 'Street Power', monospace;
+
+$font-size-15: clamp(.8rem, .78vw, 1.1rem);
+$font-size-18:  clamp(1.05rem, 0.93vw, 1.4rem);
+$font-size-20:  clamp(1.1rem, 1.04vw, 1.5rem);
+$font-size-25:  clamp(1.2rem, 1.3vw, 1.7rem);
+$font-size-30:  clamp(1.1625rem,  1.56vw, 1.8rem);
+$font-size-40:  clamp(1.40rem, 1.75vw, 2.6rem);
+$font-size-45:  clamp(1.47rem, 2.76vw, 3.0rem);
+$font-size-50:  clamp(1.5625rem, 3.56vw, 3.8rem);
+$font-size-55:  clamp(1.7rem, 3.6vw, 4rem);
+$font-size-65:  clamp(2rem,  3.3vw, 4.5rem);
+$font-size-67:  clamp(2.2rem,  3.15vw, 4.6875rem);
+$font-size-90: clamp(2.3rem, 4.45vw, 5.175rem);
+$font-size-100: clamp(2.5rem, 4.95vw, 7.175rem);
+$font-size-120: clamp(2.55rem, 5.90vw, 9.275rem);
+$font-size-130: clamp(2.57rem, 6.4vw, 10.275rem);
+$font-size-150: clamp(3.5rem, 7.8vw, 10rem);
