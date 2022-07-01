@@ -210,12 +210,11 @@ body {
   position:relative;
   font-family: $font-family-base;
   font-size: 16px;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 body {
   width: 100vw;
-  overflow: hidden; 
 }
 body.stop-transitions * {
   transition: none !important;
@@ -242,10 +241,12 @@ p {
   font-size: $font-size-20;
   font-weight: 300;
   line-height: 1.5;
+  font-family: $font-family-base;
 }
 
 a {
   color: $secondary;
+  font-family: $font-family-base;
   @include transition-fx;
 
   &:hover,
@@ -301,50 +302,36 @@ h1, .h1 {
   font-size: $font-size-90;
   font-weight: 300;
   line-height: 1;
+  font-family: $font-family-base;
 }
 
 h2, .h2 {
   font-size: $font-size-100;
   font-weight: 300;
   line-height: 1.08;
+  font-family: $font-family-base;
 }
 
 h3, .h3 {
   font-size: $font-size-50;
   font-weight: 300;
   line-height: 1.1;
+  font-family: $font-family-base;
 }
 
 h4, .h4 {
   font-size: $font-size-40;
   font-weight: 300;
   line-height: 1.13;
+  font-family: $font-family-base;
 }
 h5, .h5 {
   font-size: $font-size-30;
   font-weight: 300;
   line-height: 1.17;
+  font-family: $font-family-base;
 }
 
-.blog {
-  h1, .h1 {
-    font-size: $font-size-67;
-    font-weight: 300;
-    line-height: 1;
-  }
-  
-  h2, .h2 {
-    font-size: $font-size-40;
-    font-weight: 300;
-    line-height: 1.08;
-  }
-  
-  h3, .h3 {
-    font-size: $font-size-30;
-    font-weight: 300;
-    line-height: 1.1;
-  }
-}
 //Buttons
 .btn {
   position: relative;
@@ -380,7 +367,6 @@ h5, .h5 {
 
       span {
         color: $white;
-
       }
     }
 
