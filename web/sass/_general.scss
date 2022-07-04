@@ -62,7 +62,6 @@ body{
                         .img-trailer {
                             width: 100%;
                             height: 100%;
-                            clip-path:polygon(0 2%,100% 2%,100% 5%,0 5%);
                             
                             &::after {
                                 content: "";
@@ -71,9 +70,8 @@ body{
                                 right: 0;
                                 width: 100%;
                                 height: 100%;
-                                clip-path:polygon(0 2%,100% 2%,100% 5%,0 5%);
-                                background-color: $primary;
-                                opacity: 0.5;
+                                clip-path: polygon(100% 0, 66% 7%, 13% 9%, 0 32%, 0 0);
+                                background-color: $quaternary;
                             }
                             &::before {
                                 content: "";
@@ -82,9 +80,9 @@ body{
                                 right: 0;
                                 width: 100%;
                                 height: 100%;
-                                background-color: $primary;
-                                opacity: 0.5;
-                                clip-path:polygon(0 2%,100% 2%,100% 5%,0 5%);
+                                background-color: $quaternary;
+                                clip-path: polygon(74% 90%, 100% 69%, 100% 100%, 0 100%, 44% 89%);
+                                transform: translate(10%,-2%);
                             }
                         }
         
@@ -109,6 +107,71 @@ body{
                     }
                 }
 
+            }
+        }
+
+        &.img_text {
+            margin-top: 11rem;
+            padding-bottom: 5rem;
+            text-align: center;
+
+            &::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 10rem;
+                background-image: url("./../assets/pictures/imageHome.png");
+                transform: translateY(-5rem);
+            }
+
+            .text {
+                padding-top: 8rem;
+            }
+
+            p {
+                color: $black;
+
+                &.title {
+                    font-size: $font-size-40;
+                    font-weight: bold;
+                }
+            }
+
+            .card {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                flex: 1;
+                background-color: $primary;
+                margin-top: 3rem;
+
+                .left-part, .right-part {
+                    border: 4px solid $quaternary;
+                    background-color: $quinary;
+                    @include transition-fx;
+                    width: 45%;
+
+                    &:hover {
+                        background-color: $white;
+                        cursor: pointer;
+                    }
+
+                    .title {
+                        font-size: $font-size-30;
+                        font-weight: bold;
+                    }
+
+                    .content {
+                        padding: 2rem 1rem;
+                    }
+
+                    img {
+                        padding: 2rem;
+                    }
+                }
             }
         }
     }

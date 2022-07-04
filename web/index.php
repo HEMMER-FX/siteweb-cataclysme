@@ -21,7 +21,7 @@
             <?php include('./views/header.php') ?>
         </div>
 
-        <div class="block img_text container">
+        <div class="block img_text container-fluid position-relative">
             <?php include('./views/img_text.php') ?>
         </div>
 
